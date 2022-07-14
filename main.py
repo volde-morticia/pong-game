@@ -21,6 +21,13 @@ s.onkey(paddle_1.go_down, "Down")
 s.onkey(paddle_2.go_up, "w")
 s.onkey(paddle_2.go_down, "s")
 
+print('''
+W - moves the left paddle upwards
+S - moves the left paddle downwards
+UP - moves the right paddle upwards
+DOWN - moves the right paddle downwards 
+''')
+
 sleep_time = 0.1
 game_is_on = True
 while game_is_on:
